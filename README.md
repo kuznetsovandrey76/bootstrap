@@ -5,3 +5,4 @@
 
 useage:
 `https://prismjs.com/download`
+`https://jenkins.io/download/`
