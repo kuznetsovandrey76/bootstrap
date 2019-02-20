@@ -1,0 +1,19 @@
+.outer{
+    max-width: 130px;
+    position: relative;
+  }
+  .outer:before{
+    content:'';
+    display: block;
+    padding-bottom: 100%;
+  }
+  .inner{
+    padding: 20px;
+    background: lightblue;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
+  

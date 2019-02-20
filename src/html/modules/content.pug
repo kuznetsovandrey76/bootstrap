@@ -1,2 +1,64 @@
-.row
-    .col
+section.content
+  .container
+    .row.my-3
+      .col-lg-6.col-md-8.col-sm-10.ml-auto.mr-auto
+        h3 sticky footer
+
+        pre.rounded
+          code.language-pug.
+            body
+              header.header
+              main.main
+              footer.footer
+            
+        pre.rounded
+          code.language-css.
+            html {
+              height: 100%;
+            }
+            body {
+              min-height: 100%; /* IE height: 100%; */
+              display: flex;
+              flex-direction: column;
+            }
+            .main {
+              flex: 1; /* IE flex: 1 0 auto; */
+            }
+
+    .outer.mx-auto
+      .inner Content
+
+    .row.my-3
+      .col-lg-6.col-md-8.col-sm-10.ml-auto.mr-auto
+        h3 padding hack
+
+        pre.rounded
+          code.language-pug.
+            .outer
+              .inner Content
+
+        pre.rounded
+          code.language-css.
+            .outer{
+              max-width: 130px;
+              position: relative;
+            }
+            .outer:before{
+              content:'';
+              display: block;
+              padding-bottom: 100%;
+            }
+            .inner{
+              padding: 20px;
+              background: lightblue;
+              position: absolute;
+              left: 0;
+              top: 0;
+              bottom: 0;
+              right: 0;
+            }
+
+                
+
+            
+

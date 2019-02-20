@@ -2,7 +2,7 @@
 `gulp` - сборка и запуск локального сервера     
 `npm run gulp` - production     
 
-useage:
-`https://prismjs.com/download`
-`https://jenkins.io/download/`
+useage:  
+`https://prismjs.com/download`  
+`https://jenkins.io/download/`  
 
